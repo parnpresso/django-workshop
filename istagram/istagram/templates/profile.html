@@ -1,5 +1,34 @@
 {% extends "base.html" %}
+{% load static %}
 
 {%block content%}
-  test
+  <!-- Profile -->
+  <div class="profile">
+    <!-- Profile Image -->
+    <div class="profile-image">
+      <img class="rounded-circle" src="{% static 'assets/images/parn.jpg' %}" />
+    </div>
+    <!-- Profile Image -->
+
+    <!-- Profile Description -->
+    <div class="profile-description">
+      <div class="title">
+        <span>parnpresso</span>
+        <button>แก้ไขโปรไฟล์</button>
+      </div>
+      <div class="stat">
+        <b>119</b> โพสต์
+        ผู้ติดตาม <b>404</b> คน
+        กำลังติดตาม <b>346</b> คน
+      </div>
+      <div>
+          <b>Parnpresso 👑</b><br />
+          🚀 Journey 💻 Coding 🎸 Music <br />
+          🍺 Beer 🌿 Wildlife 💵 Financial <br />
+          🇹🇭 BKK, Thailand, Asia, World <br />
+      </div>
+    </div>
+    <!-- Profile Description -->
+  </div>
+  <!-- Profile -->
 {%endblock content%}

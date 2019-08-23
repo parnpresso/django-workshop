@@ -79,6 +79,7 @@ a:hover {
 .profile {
   display: flex;
   justify-content: center;
+  width: 935px;
   padding: 20px;
   padding-top: 60px;
   margin-bottom: 44px;
