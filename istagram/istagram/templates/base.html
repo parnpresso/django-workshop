@@ -14,7 +14,7 @@
       <!-- Logo -->
       <div class="logo">
         <img class="logo-image" src="{% static 'assets/images/instagram-logo.png' %}" />
-        <a href="post_list.html">
+        <a href="{% url 'home' %}">
           <span class="logo-text">Istagram</span>
         </a>
       </div>
@@ -26,9 +26,9 @@
 
       <!-- Menu -->
       <div class="menu">
-        <a href="post_list.html"><i class="far fa-compass fa-lg"></i></a>
+        <a href="{% url 'home' %}"><i class="far fa-compass fa-lg"></i></a>
         <a href="#"><i class="far fa-heart fa-lg"></i></a>
-        <a href="profile.html"><i class="far fa-user fa-lg"></i></a>
+        <a href="{% url 'profile' %}"><i class="far fa-user fa-lg"></i></a>
       </div>
       <!-- Menu -->
     </div>
@@ -41,6 +41,6 @@
 
     <footer>
       <div>© 2019 Istagram</div>
-    </footer
+    </footer>
   </body>
 </html>
