@@ -190,8 +190,10 @@ a:hover {
   padding: 16px;
 }
 
-
-
+.post-list > .post > .user-detail > img {
+  width: 32px;
+  margin-right: 5px;
+}
 
 footer {
   display: flex;
