@@ -37,23 +37,24 @@ a:hover {
   background-color: white;
 }
 
-.header > .logo {
+/* Logo section */
+.logo {
   display: flex;
   align-items: center;
-  font-size: 20px;
 }
 
-.header > .logo > img {
+.logo-image {
   width: 50px;
   height: 50px;
 }
 
-.header > .logo > span {
+.logo-text {
   font-family: Cookie;
   font-size: 32px;
 }
 
-.header > .search > input {
+/* Search input */
+.search-input {
   width: 200px;
   padding-left: 10px;
   border: solid 1px rgb(219, 219, 219);
@@ -63,12 +64,13 @@ a:hover {
   font-size: 12px;
 }
 
-.header > .menu {
+/* Menu section */
+.menu {
   display: flex;
   justify-content: space-between;
 }
 
-.header > .menu > div {
+.menu > a {
   margin: 10px;
 }
 
