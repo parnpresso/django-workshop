@@ -28,7 +28,7 @@
       <div class="menu">
         <a href="{% url 'home' %}"><i class="far fa-compass fa-lg"></i></a>
         <a href="#"><i class="far fa-heart fa-lg"></i></a>
-        <a href="{% url 'profile' %}"><i class="far fa-user fa-lg"></i></a>
+        <a href="{% url 'profile' username=user.username %}"><i class="far fa-user fa-lg"></i></a>
       </div>
       <!-- Menu -->
     </div>
