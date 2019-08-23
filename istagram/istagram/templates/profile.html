@@ -6,14 +6,13 @@
   <div class="profile">
     <!-- Profile Image -->
     <div class="profile-image">
-      <img class="rounded-circle" src="{% static 'assets/images/parn.jpg' %}" />
+      <img class="rounded-circle" src="{{ user.profile_image.url }}" />
     </div>
     <!-- Profile Image -->
 
     <!-- Profile Description -->
     <div class="profile-description">
       <div class="title">
-
         <span>{{ user }}</span>
         <button>แก้ไขโปรไฟล์</button>
       </div>
