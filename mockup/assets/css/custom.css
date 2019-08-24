@@ -183,6 +183,7 @@ a:hover {
 .post-list > .post {
   border: solid 1px rgba(0, 0, 0, 0.098);
   background-color: white;
+  margin-bottom: 60px;
 }
 
 .post-list > .post > .user-detail {
@@ -193,6 +194,56 @@ a:hover {
 .post-list > .post > .user-detail > img {
   width: 32px;
   margin-right: 5px;
+}
+
+.post-list > .post > img {
+  width: 100%;
+}
+
+.post-list > .post > .like-by {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.post-list > .post > .like-by > a {
+  margin-right: 10px;
+}
+
+.post-list > .post > .like-counter {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+.post-list > .post > .description {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.post-list > .post > .comments {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.post-list > .post > .comment-box > form > div {
+  margin-bottom: 0 !important;
+  border-top: solid 1px rgba(0, 0, 0, 0.098);
+}
+
+.post-list > .post > .comment-box > form {
+  margin: 0;
+}
+
+.post-list > .post > .comment-box > form > div > input {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border: 0;
+}
+
+.post-list > .post > .comment-box > form > div > div > button {
+  border: 0;
 }
 
 footer {
